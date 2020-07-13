@@ -1,0 +1,149 @@
+@font-face{
+    font-family:GeosansLight ;
+    src: url(../fonts/GeosansLight.ttf), url(../fonts/GeosansLight.eot), url(../fonts/GeosansLight.otf);
+}
+
+body {
+   background:url("../img/web_2.png") #ccc no-repeat ;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+
+.navbar{
+    background-color:black;
+    padding: 15px;
+    position: relative;
+    top: 50px;
+    font-family:"GeosansLight";
+    font-size: 18px;
+}
+#nav{
+    position: relative;
+    top: -10px;
+}
+#navbar-toggle{
+    background-color:white;
+}
+.icon-bar{
+    background-color: darkcyan;
+}
+.navbar-brand{
+    position: relative;
+    top: -18px;
+    }
+#navbar li a:link, #navbar li a:visited {
+    color: white !important;
+    height: -50px;
+    
+}
+#navbar li a:hover, #navbar li a:active {
+    color: black !important;
+    height: -50px;
+}
+#navbar {
+    position: relative;
+    top: 10px;
+}
+#imgportada{
+    position: relative;
+    top: 30px;
+}
+#cqs{
+    position: relative;
+    top: 30px;
+}
+
+
+.container-fluid{
+    position: relative;
+    display: flex;
+    align-items: center;  
+}
+
+#informacion {
+    position: relative;
+    top: 50px;
+    font-family:"GeosansLight" ;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#text {
+    font-family: "GeosansLight" ;
+    text-align: center;
+    position: absolute;
+    color: #ffffff;
+    padding: 10px 20px; 
+    font-size: 8vw;
+    font-weight: bold;
+ }
+
+ .container1{
+     width: 100%;
+     max-width: 1000px;
+     margin: 0px auto;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+ #qs{
+    font-family: "GeosansLight" ;
+    text-align: center;
+    position: absolute;
+    color: #bf930d;
+    padding: 2vw 25vw; 
+    font-size: 4.5vw;
+    font-weight: bold;
+    top: 3vw;
+}
+ #pr1{
+    font-family: "GeosansLight" ;
+    text-align: justify;
+    position: absolute;
+    color: #bf930d;
+    padding: 12vw 5vw; 
+    font-size: 2vw;
+    font-weight: normal;
+    top: 0vw;
+ }
+
+ #hr{
+     background-color: #bf930d;
+     height: 3px;
+ }
+
+ #hr1{
+    font-family: "GeosansLight" ;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+ }
+ #hr2{
+    font-family: "GeosansLight" ;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: normal;
+ }
+ #mail{
+    font-family: "GeosansLight" ;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+ }
+
+ #ins{
+    font-family: "GeosansLight" ;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+ }
+
+
+
+
+    
